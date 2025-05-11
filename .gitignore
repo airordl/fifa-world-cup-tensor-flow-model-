@@ -1,3 +1,6 @@
 # Ignore Keras/TensorFlow model files
 *.h5
 
+#ignore licensed csv files
+*.csv
+*.dat
