@@ -11,7 +11,7 @@ If you do, that's entirely on you.
 
 ## ⚙️ What it Does
 
-- Cleans and encodes data from `FIFA_World_Cup_1558_23.csv`
+- Cleans and encodes data from `FIFA_World_Cup_1558_23.csv` (it's up to you to find this dataset online)
 - Builds a deep neural network using Keras
 - Trains the model to guess match outcomes (win/draw/loss)
 - Allows predictions from command-line input (`user.py`)
@@ -40,4 +40,10 @@ pip install pandas numpy scikit-learn keras tensorflow
 
 python fifa.py       # Train the model
 python user.py       # Use the model
+
+
+Example of user.csv file:
+Year    City    Home.Team.Name  Away.Team.Name  Attendance  Referee
+2014    151.0   8.0 36.0    68034   360.0
+2014    151.0   8.0 36.0    68034   360.0
 
