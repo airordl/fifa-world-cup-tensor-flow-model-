@@ -41,9 +41,13 @@ pip install pandas numpy scikit-learn keras tensorflow
 python fifa.py       # Train the model
 python user.py       # Use the model
 
+```
 
 Example of user.csv file:
+
+```bash
 Year    City    Home.Team.Name  Away.Team.Name  Attendance  Referee
 2014    151.0   8.0 36.0    68034   360.0
 2014    151.0   8.0 36.0    68034   360.0
 
+```
