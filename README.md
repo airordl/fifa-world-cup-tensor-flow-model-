@@ -2,27 +2,27 @@
 
 This project is a playful experiment using historical FIFA World Cup data and a deep neural network to predict match outcomes based on team names, city, attendance, and referee.
 
-## 🚨 Disclaimer
+##  Disclaimer
 
 This model **is not accurate** and **should not be used for serious predictions**. It's a hobby project meant for fun, educational exploration, or messing around with data science and neural networks.
 
 **Do not use this for betting, financial decisions, or anything serious.**  
 If you do, that's entirely on you.
 
-## ⚙️ What it Does
+##  What it Does
 
 - Cleans and encodes data from `FIFA_World_Cup_1558_23.csv` (it's up to you to find this dataset online)
 - Builds a deep neural network using Keras
 - Trains the model to guess match outcomes (win/draw/loss)
 - Allows predictions from command-line input (`user.py`)
 
-## 🧠 Model Notes
+##  Model Notes
 
 - The architecture is deliberately overkill and experimental.
 - The output layer currently uses a softmax with a single unit, which is **mathematically incorrect** for multi-class classification.
 - Model performance is not evaluated with real metrics. It’s not useful beyond entertainment or testing code.
 
-## 📂 Files
+##  Files
 
 - `fifa.py`: Preprocesses the dataset and trains the model.
 - `user.py`: Takes user input and generates a "prediction".
@@ -31,7 +31,7 @@ If you do, that's entirely on you.
 - `mi_model.h5`: Saved model.
 - `user.csv`: Example input (not needed if running interactively).
 
-## 📦 Installation
+##  Installation
 
 Install dependencies:
 ```bash
